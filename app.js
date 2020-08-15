@@ -6,7 +6,6 @@ const selectedCity = document.querySelector(".city_location")
 const place = document.querySelector(".city")
 const form = document.querySelector("form");
 
-const weather = {};
 var txt = "";
 var savedCities = [];
 var save_pos = 0;
