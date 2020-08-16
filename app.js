@@ -113,7 +113,7 @@ form.addEventListener("submit", e => {
 				}
 							//data.list[i].weather[0].icon
 				var cell = document.getElementById(`data${i}`);
-				cell.innerHTML = `${date_out[1]}/${date_out[2]}/${date_out[0]}<br>${hours_out}<br><img class=weather_icon src="http://openweathermap.org/img/wn/${data.list[i].weather[0].icon}@2x.png"><br>Temp: ${data.list[i].main.temp}F<br>Feels: ${data.list[i].main.feels_like}F<br>Humidity: ${data.list[i].main.humidity}%<br>Pres: ${(data.list[i].main.pressure * 0.0145038).toFixed(3)}psi`;
+				cell.innerHTML = `${date_out[1]}/${date_out[2]}/${date_out[0]}<br>${hours_out}<br><img class=weather_icon src="https://openweathermap.org/img/wn/${data.list[i].weather[0].icon}@2x.png"><br>Temp: ${data.list[i].main.temp}F<br>Feels: ${data.list[i].main.feels_like}F<br>Humidity: ${data.list[i].main.humidity}%<br>Pres: ${(data.list[i].main.pressure * 0.0145038).toFixed(3)}psi`;
 			}
 		}
 		}) 
